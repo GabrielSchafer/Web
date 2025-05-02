@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+img{
+    width: 90%;
+    height: 90%;
+}
+
+header{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin-left: 200px;
+}
+
+nav{
+    margin-right: 70px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+
+
+main{
+    width: 70%;
+    margin: 0 0 0 200px
+}
+aside{
+    width: 30%;
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+
+.conteudo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: space-between;
+
+}
+.conteudo a{
+    color: gray;
+    text-decoration: none;
+}
+
+footer{
+    border-top: 2px solid rgba(128, 128, 128, 0.5) ;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.buscar{
+    border: 1px solid rgba(123,128,128, 0.5);
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 10px ;
+}
+
+.buscar input{
+    margin-left: 15px;
+    margin-top: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-right: none;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    width: 200px;
+}
+
+.buscar button{
+    background-color: rgb(0, 174, 255);
+    color: aliceblue;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-left: none;
+    outline: none;
+}
+
+
+.categorias{
+    border: 1px solid rgba(123,128,128, 0.5);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.tags{
+    border: 1px solid rgba(123,128,128, 0.5);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.categorias ul li{
+    margin-top: 10px;
+    color: rgb(85, 79, 79);
+
+}
+
+.tags a{ 
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(85, 79, 79);
+    background-color: rgba(123,128,128, 0.5);
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+}
+
+.tags h3{
+    margin: 5px 5px 5px 5px ;
+}
+
+.ver-post{
+    margin-top: 10px;
+}
+
+.feito-por{
+    margin-top: 10px;
+}
