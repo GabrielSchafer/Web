@@ -2,7 +2,6 @@ Conteúdo da Disciplina de Desenvolvimento Web
 Este repositório reúne os materiais e códigos desenvolvidos durante a disciplina de Desenvolvimento Web. Aqui estão organizados os exercícios, atividades práticas, exemplos vistos em aula e projetos desenvolvidos ao longo do semestre.
 
 🧩 Estrutura do Repositório
-aulas/ – Códigos e exemplos usados nas aulas.
 
 exercicios/ – Atividades práticas para fixação dos conteúdos.
 
