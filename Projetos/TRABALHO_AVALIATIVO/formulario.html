@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de veiculos</title>
+</head>
+<body>
+<header>
+    Cadastre o seu veiculo na loja!
+</header>
+<div id="box">
+    <div id="cabecalho">
+        FORMULÁRIO
+    </div>
+    <div id="forms">
+        <h1>Venda o seu veiculo conosco!</h1>
+        <br>
+        <p>Descreva as caracteristicas e escolha os opcionais que o seu veiculo possui</p>
+        <br>
+        <form>
+            <label>
+                Título do anúncio <span>*</span>
+                <br>
+                <input class="inputTexto" name="titulo" type="text" required placeholder="Adicione o título do anúncio">
+            </label>
+            <br><br>
+
+            <label>
+                Preço do anúncio <span>*</span>
+                <br>
+                <input class="inputTexto" name="preco" type="number" required placeholder="Adicione o preço do carro">
+            </label>
+            <br><br>
+
+            <label>
+                Descrição <span>*</span>
+                <br>
+                <textarea class="inputDescricao" name="descricao" placeholder="Coloque os detalhes do seu veículo"
+                          required></textarea>
+            </label>
+            <br><br>
+
+            <label>
+                Marca do veículo
+                <br>
+                <input class="inputTexto" name="marcaVeiculo" type="text" required
+                       placeholder="Adicione a marca do veículo">
+            </label>
+            <br><br>
+
+            <label>
+                Modelo do Veículo <span>*</span>
+                <br>
+                <input class="inputTexto" type="text" name="modelo" placeholder="Digite o modelo do veículo" required>
+            </label>
+            <br><br>
+
+            <label>
+                Quilometragem do Veículo (km) <span>*</span>
+                <br>
+                <input class="inputTexto" type="number" name="Kilometragem" placeholder="Digite a quilometragem"
+                       required>
+            </label>
+            <br><br>
+
+            <label>
+                Data de Compra do Veículo <span>*</span>
+                <br>
+                <input class="inputTexto" type="date" name="dataCompra" required>
+            </label>
+            <br><br>
+
+            <label>
+                <div id="radio">Tipo de câmbio <span>*</span> </div>
+                <label>
+                    <input type="radio" name="cambio" value="Manual">
+                    Manual
+                </label>
+                <label>
+                    <input type="radio" name="cambio" value="Automático">
+                    Automático
+                </label>
+            </label>
+            <br>
+            <div id="opcoes">Opcionais</div>
+            <div id="checkbox">
+                <label for="airbag">
+                    <input type="checkbox" id="airbag" name="opcionais" value="airbag">
+                    Airbag
+                </label>
+
+                <label for="alarme">
+                    <input type="checkbox" id="alarme" name="opcionais" value="alarme">
+                    Alarme
+                </label>
+
+                <label for="ar-condicionado">
+                    <input type="checkbox" id="ar-condicionado" name="opcionais" value="ar-condicionado">
+                    Ar-condicionado
+                </label>
+
+                <label for="camera-de-ré">
+                    <input type="checkbox" id="camera-de-ré" name="opcionais" value="camera de ré">
+                    Câmera de ré
+                </label>
+
+                <label for="assistente_pista">
+                    <input type="checkbox" id="assistente_pista" name="opcionais" value="assistente_pista">
+                    Assistente de pista
+                </label>
+                <label for="keyless">
+                    <input type="checkbox" id="keyless" name="opcionais" value="keyless">
+                    Partida keyless
+                </label>
+
+                <label for="bancos-couro">
+                    <input type="checkbox" id="bancos-couro" name="opcionais" value="bancos-couro">
+                    Bancos de couro
+                </label>
+                <label for="inte-celular">
+                    <input type="checkbox" id="inte-celular" name="opcionais" value="inte-celular">
+                    Integração com celular
+                </label>
+            </div>
+            <br>
+            <label>
+                Fotos do carro<span>*</span>
+                <br><br>
+                <input type="file" id="fotos" name="fotos" required>
+            </label>
+            <br>
+            <input id="enviar" type="submit" value="Enviar">
+
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    border-color: transparent;
+}
+
+body{
+    background-color: slategray;
+    font-family: Arial, Helvetica, SansSerif, serif;
+}
+#calculadora{
+    background-color: #191b1d;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+
+}
+#viewResult{
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    font-size: xx-large;
+    color: #7D869C;
+    font-family: Arial,Helvetica,sans-serif;
+    align-items: center;
+    justify-content: right;
+    margin: 15px 12px;
+    width: 95%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    box-sizing: border-box;
+}
+#numbers{
+    margin-top: 100px;
+    margin-left: 15px;
+    width: 200px;
+    height: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+#numbers button{
+    border-radius: 10px;
+    background-color: #f9c329;
+    color: white;
+    font-size: xx-large;
+    flex:1 1 30%;
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+}
+#numbers button:hover{
+    transition: background-color, 0.5s ease;
+    background-color: #bc8e00;
+
+}
+
+#submits{
+    width: 80px; /* Ajuste conforme necessário */
+    height: calc(100% - 115px);
+    display: flex;
+    flex-direction: column; /* Alinha os botões verticalmente */
+    justify-content: flex-start;
+    box-sizing: border-box;
+    margin-right: 15px;
+    margin-top: 100px;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+#submits button{
+    flex:1 1 20%;
+    border-radius: 10px;
+    font-size: xx-large;
+    width: 100%;
+    height: 100px;
+}
+
+#submits button:hover{
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    background-color: #8f8f8f;
+}
+#resetButton{
+    position: absolute;
+    top:75px;
+    right: 0;
+    margin-right: 10px;
+
+
+}
+#resetButton button{
+    border-radius: 10px;
+    background-color: #F34E56;
+    border-color: transparent;
+}
+
+#resetButton button:hover{
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    background-color: #8f2e33;
+}
